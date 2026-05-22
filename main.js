@@ -1,5 +1,3 @@
-let i = 1
-do {
-    console.log (i);
-    i++;
-} while (i <= 10);
+import Menu from "./view/menu.js";
+const menu = new Menu();
+menu.getMenu();
